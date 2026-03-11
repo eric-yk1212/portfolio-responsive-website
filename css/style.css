@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 :root {
     --primary-color: #2563eb;
     --primary-dark: #1e40af;
@@ -25,6 +26,13 @@ body {
     color: var(--text-dark);
     overflow-x: hidden;
     scroll-behavior: smooth;
+=======
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    overflow-x: hidden;
+>>>>>>> bbcc1b3f8760218ae29dbdb8f1af75631d4b762a
 }
 
 .container {
@@ -33,6 +41,7 @@ body {
     padding: 0 20px;
 }
 
+<<<<<<< HEAD
 .section-header {
     text-align: center;
     margin-bottom: 4rem;
@@ -70,6 +79,12 @@ body {
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
     box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+=======
+/* 导航栏样式 */
+.navbar {
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+>>>>>>> bbcc1b3f8760218ae29dbdb8f1af75631d4b762a
     position: fixed;
     width: 100%;
     top: 0;
@@ -84,6 +99,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+<<<<<<< HEAD
     height: 80px;
 }
 
@@ -105,16 +121,31 @@ body {
     font-size: 0.9rem;
     color: var(--text-light);
     font-weight: 500;
+=======
+    height: 70px;
+}
+
+.nav-logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2563eb;
+    text-decoration: none;
+>>>>>>> bbcc1b3f8760218ae29dbdb8f1af75631d4b762a
 }
 
 .nav-menu {
     display: flex;
+<<<<<<< HEAD
     gap: 2.5rem;
     align-items: center;
+=======
+    gap: 2rem;
+>>>>>>> bbcc1b3f8760218ae29dbdb8f1af75631d4b762a
 }
 
 .nav-link {
     text-decoration: none;
+<<<<<<< HEAD
     color: var(--text-dark);
     font-weight: 500;
     transition: all 0.3s ease;
@@ -157,27 +188,46 @@ body {
 
 .btn-nav::after {
     display: none;
+=======
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #2563eb;
+>>>>>>> bbcc1b3f8760218ae29dbdb8f1af75631d4b762a
 }
 
 .nav-toggle {
     display: none;
     flex-direction: column;
     cursor: pointer;
+<<<<<<< HEAD
     gap: 4px;
+=======
+>>>>>>> bbcc1b3f8760218ae29dbdb8f1af75631d4b762a
 }
 
 .bar {
     width: 25px;
     height: 3px;
+<<<<<<< HEAD
     background: var(--text-dark);
     transition: 0.3s;
     border-radius: 2px;
+=======
+    background: #333;
+    margin: 3px 0;
+    transition: 0.3s;
+>>>>>>> bbcc1b3f8760218ae29dbdb8f1af75631d4b762a
 }
 
 /* Hero区域 */
 .hero {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
+<<<<<<< HEAD
     padding: 140px 0 100px;
     display: flex;
     align-items: center;
@@ -201,11 +251,18 @@ body {
     0% { transform: translateY(0px); }
     50% { transform: translateY(-20px); }
     100% { transform: translateY(0px); }
+=======
+    padding: 120px 0 80px;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+>>>>>>> bbcc1b3f8760218ae29dbdb8f1af75631d4b762a
 }
 
 .hero-content {
     flex: 1;
     max-width: 600px;
+<<<<<<< HEAD
     position: relative;
     z-index: 2;
 }
@@ -258,22 +315,47 @@ body {
 .stat-label {
     font-size: 0.9rem;
     opacity: 0.8;
+=======
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+>>>>>>> bbcc1b3f8760218ae29dbdb8f1af75631d4b762a
 }
 
 .hero-buttons {
     display: flex;
+<<<<<<< HEAD
     gap: 1.5rem;
+=======
+    gap: 1rem;
+>>>>>>> bbcc1b3f8760218ae29dbdb8f1af75631d4b762a
     flex-wrap: wrap;
 }
 
 .btn {
+<<<<<<< HEAD
     padding: 14px 32px;
     border: none;
     border-radius: 8px;
+=======
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+>>>>>>> bbcc1b3f8760218ae29dbdb8f1af75631d4b762a
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
     cursor: pointer;
+<<<<<<< HEAD
     display: inline-flex;
     align-items: center;
     gap: 8px;
@@ -289,10 +371,24 @@ body {
 .btn-primary:hover {
     transform: translateY(-3px);
     box-shadow: var(--shadow-hover);
+=======
+    display: inline-block;
+}
+
+.btn-primary {
+    background: #fff;
+    color: #2563eb;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+>>>>>>> bbcc1b3f8760218ae29dbdb8f1af75631d4b762a
 }
 
 .btn-secondary {
     background: transparent;
+<<<<<<< HEAD
     color: var(--white);
     border: 2px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(10px);
@@ -302,11 +398,21 @@ body {
     background: var(--white);
     color: var(--primary-color);
     border-color: var(--white);
+=======
+    color: white;
+    border: 2px solid white;
+}
+
+.btn-secondary:hover {
+    background: white;
+    color: #2563eb;
+>>>>>>> bbcc1b3f8760218ae29dbdb8f1af75631d4b762a
 }
 
 .hero-image {
     flex: 1;
     text-align: center;
+<<<<<<< HEAD
     position: relative;
     z-index: 2;
 }
@@ -336,6 +442,13 @@ body {
 
 .code-string {
     color: #f1fa8c;
+=======
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+>>>>>>> bbcc1b3f8760218ae29dbdb8f1af75631d4b762a
 }
 
 /* 服务区域 */
@@ -384,12 +497,24 @@ body {
 
 /* 案例展示 */
 .portfolio {
+<<<<<<< HEAD
     padding: 100px 0;
     background: var(--bg-light);
+=======
+    padding: 80px 0;
+}
+
+.portfolio h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #1e293b;
+>>>>>>> bbcc1b3f8760218ae29dbdb8f1af75631d4b762a
 }
 
 .portfolio-grid {
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 3rem;
 }
@@ -411,10 +536,27 @@ body {
 .portfolio-image {
     height: 220px;
     background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+=======
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.portfolio-item {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.portfolio-image {
+    height: 200px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+>>>>>>> bbcc1b3f8760218ae29dbdb8f1af75631d4b762a
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
+<<<<<<< HEAD
     position: relative;
     overflow: hidden;
 }
@@ -542,17 +684,45 @@ body {
     background: var(--primary-color);
     color: var(--white);
     transform: translateY(-2px);
+=======
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.portfolio-item h3 {
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: #1e293b;
+}
+
+.portfolio-item p {
+    padding: 0 1rem 1rem;
+    color: #64748b;
+>>>>>>> bbcc1b3f8760218ae29dbdb8f1af75631d4b762a
 }
 
 /* 联系表单 */
 .contact {
+<<<<<<< HEAD
     padding: 100px 0;
     background: var(--bg-light);
+=======
+    padding: 80px 0;
+    background: #f8fafc;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #1e293b;
+>>>>>>> bbcc1b3f8760218ae29dbdb8f1af75631d4b762a
 }
 
 .contact-form {
     max-width: 600px;
     margin: 0 auto;
+<<<<<<< HEAD
     background: var(--white);
     padding: 3rem;
     border-radius: 16px;
@@ -561,28 +731,47 @@ body {
 
 .form-group {
     margin-bottom: 2rem;
+=======
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+>>>>>>> bbcc1b3f8760218ae29dbdb8f1af75631d4b762a
 }
 
 .form-group input,
 .form-group textarea {
     width: 100%;
+<<<<<<< HEAD
     padding: 1rem;
     border: 2px solid var(--border-color);
     border-radius: 8px;
     font-size: 1rem;
     transition: all 0.3s ease;
     font-family: inherit;
+=======
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+>>>>>>> bbcc1b3f8760218ae29dbdb8f1af75631d4b762a
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
+<<<<<<< HEAD
     border-color: var(--primary-color);
     box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+=======
+    border-color: #2563eb;
+>>>>>>> bbcc1b3f8760218ae29dbdb8f1af75631d4b762a
 }
 
 /* 页脚 */
 .footer {
+<<<<<<< HEAD
     background: var(--text-dark);
     color: var(--white);
     text-align: center;
@@ -592,6 +781,12 @@ body {
 .footer p {
     opacity: 0.8;
     font-size: 0.9rem;
+=======
+    background: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+>>>>>>> bbcc1b3f8760218ae29dbdb8f1af75631d4b762a
 }
 
 /* 响应式设计 */
